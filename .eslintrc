@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "react/prop-types": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/jsx-closing-bracket-location": ["off"],
+    "react/jsx-props-no-spreading": ["off"],
+    "react/jsx-tag-spacing": "error",
+
+    "max-len": ["warn", {"code": 100}],
+    "no-return-assign": ["off"],
+    "prefer-promise-reject-errors": ["off"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "import/prefer-default-export": ["off"],
+
+    "indent": "warn",
+    "no-unused-vars": "warn",
+    "no-param-reassign": "warn",
+    "no-async-promise-executor": "warn",
+    "import/no-extraneous-dependencies": "warn",
+    "import/no-unresolved": "off",
+    "object-curly-spacing": ["warn", "always"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}

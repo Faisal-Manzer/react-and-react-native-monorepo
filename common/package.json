@@ -1,0 +1,23 @@
+{
+  "name": "common",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "react",
+      "react-dom",
+      "react-native"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2"
+  }
+}
