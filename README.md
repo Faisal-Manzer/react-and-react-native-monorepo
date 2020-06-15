@@ -20,6 +20,12 @@ This is an monorepo for React and React Native which can be used as boilerplate.
     - [husky] and [lint-staged]: Beautify code (staged) before every commit.
     - Absolute imports for react and react-native.
 
+## There is an Advanced branch
+It has preconfigured native Google SignIn, Push Notifications for all platforms (iOS, Android, Web). Also have redux persist for saving redux state of application so that user can start where they left.  See its guide [here](https://github.com/Faisal-Manzer/react-and-react-native-monorepo/tree/advanced#react-n-react-native-monorepo-advanced).
+```shell script
+git clone https://github.com/Faisal-Manzer/react-and-react-native-monorepo.git --branch advanced --single-branch
+```
+
 ## Getting started
 ```shell script
 # clone this repo
